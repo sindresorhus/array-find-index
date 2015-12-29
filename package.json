@@ -1,6 +1,6 @@
 {
   "name": "array-find-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES2015 `Array#findIndex()` ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/array-find-index",
