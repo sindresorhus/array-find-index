@@ -4,15 +4,15 @@ module.exports = function (arr, predicate, ctx) {
 		return arr.findIndex(predicate, ctx);
 	}
 
+	if (typeof predicate !== 'function') {
+		throw new TypeError('predicate must be a function');
+	}
+
 	var list = Object(arr);
 	var len = list.length;
 
 	if (len === 0) {
 		return -1;
-	}
-
-	if (typeof predicate !== 'function') {
-		throw new TypeError('predicate must be a function');
 	}
 
 	for (var i = 0; i < len; i++) {
