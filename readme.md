@@ -14,11 +14,34 @@ $ npm install --save array-find-index
 
 ## Usage
 
+### Node.js
 ```js
+
 arrayFindIndex = require('array-find-index');
 
 arrayFindIndex(['rainbow', 'unicorn', 'pony'], x => x === 'unicorn');
 //=> 1
+
+```
+
+### AMD
+```js
+
+define(['array-find-index'], function(arrayFindIndex) {
+
+  arrayFindIndex(['rainbow', 'unicorn', 'pony'], x => x === 'unicorn');
+  //=> 1
+
+});
+
+```
+
+### Browser globals
+```js
+
+  shimArrayFindIndex(['rainbow', 'unicorn', 'pony'], x => x === 'unicorn');
+  //=> 1
+
 ```
 
 
