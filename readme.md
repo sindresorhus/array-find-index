@@ -15,7 +15,7 @@ $ npm install --save array-find-index
 ## Usage
 
 ```js
-arrayFindIndex = require('array-find-index');
+const arrayFindIndex = require('array-find-index');
 
 arrayFindIndex(['rainbow', 'unicorn', 'pony'], x => x === 'unicorn');
 //=> 1
@@ -29,4 +29,4 @@ Same as `Array#findIndex()`, but with the input array as the first argument.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
