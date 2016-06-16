@@ -1,7 +1,8 @@
 /* eslint-disable no-extend-native */
-Array.prototype.findIndex = undefined;
 import test from 'ava';
-import m from './';
+
+Array.prototype.findIndex = undefined;
+const m = require('./');
 
 const f = [10, 20, 30, 40];
 
