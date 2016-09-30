@@ -1,8 +1,6 @@
 # array-find-index [![Build Status](https://travis-ci.org/sindresorhus/array-find-index.svg?branch=master)](https://travis-ci.org/sindresorhus/array-find-index)
 
-> ES2015 [`Array#findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) ponyfill
-
-> Ponyfill: A polyfill that doesn't overwrite the native method
+> ES2015 [`Array#findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) [ponyfill](https://ponyfill.com)
 
 
 ## Install
