@@ -1,34 +1,36 @@
 {
-  "name": "array-find-index",
-  "version": "1.0.2",
-  "description": "ES2015 `Array#findIndex()` ponyfill",
-  "license": "MIT",
-  "repository": "sindresorhus/array-find-index",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "es2015",
-    "ponyfill",
-    "polyfill",
-    "shim",
-    "find",
-    "index",
-    "findindex",
-    "array"
-  ],
-  "devDependencies": {
-    "ava": "^0.25.0"
-  }
+	"name": "array-find-index",
+	"version": "1.0.2",
+	"description": "ES2015 `Array#findIndex()` ponyfill",
+	"license": "MIT",
+	"repository": "sindresorhus/array-find-index",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"es2015",
+		"ponyfill",
+		"polyfill",
+		"shim",
+		"find",
+		"index",
+		"findindex",
+		"array"
+	],
+	"devDependencies": {
+		"ava": "^0.25.0"
+	}
 }
