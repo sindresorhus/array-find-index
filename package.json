@@ -20,6 +20,8 @@
 	"files": [
 		"index.js"
 	],
+	"main": "index.js",
+	"types": "index.d.ts",
 	"keywords": [
 		"es2015",
 		"ponyfill",
